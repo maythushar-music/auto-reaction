@@ -34,7 +34,6 @@ async def clone_txt(client, message):
             await ai.set_bot_commands([
                     BotCommand("start", "Start the bot"),
                     BotCommand("help", "Get the help menu"),
-                    BotCommand("clone", "Make your own chatbot"),
                     BotCommand("ping", "Check if the bot is alive or dead"),
                     BotCommand("id", "Get users user_id"),
                     BotCommand("stats", "Check bot stats"),
@@ -145,7 +144,6 @@ async def restart_bots():
                 await ai.set_bot_commands([
                     BotCommand("start", "Start the bot"),
                     BotCommand("help", "Get the help menu"),
-                    BotCommand("clone", "Make your own chatbot"),
                     BotCommand("ping", "Check if the bot is alive or dead"),
                     BotCommand("id", "Get users user_id"),
                     BotCommand("stats", "Check bot stats"),
